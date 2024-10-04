@@ -7,7 +7,22 @@ header {
 }
 main {
     background-color: #29161c;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+main div {
+    display: flex;
+    border: solid 2px orange;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    background-color: #41212b;
 }
 footer {
     border: solid 2px black;
+    background-color: #f2eec4;
 }
